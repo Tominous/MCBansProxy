@@ -25,7 +25,7 @@ minRepMessage: 'Your reputation is below this servers threshold!'
 #   Limits the maximum number of alt accounts a user may have before
 #   being denied access to the server.
 #   DEFAULT: false
-enableMaxAlts: false
+enableMaxAlts: true
 
 # maxAlts:
 #   Maximum number of alternate accounts allowed before denying user
@@ -48,9 +48,9 @@ unavailableMessage: 'Unavailable MCBans Service! Please try again later!'
 #   If set to true, disallow access to the server when can't auth players,
 #   unavailable mcbans api servers (timeout), internal plugin error etc.
 #   DEFAULT: false
-failsafe: false
+failsafe: true
 
 # isDebug:
 #   Enable additional debug messages throughout the plugin
 #   DEFAULT: false
-isDebug: false
+isDebug: true
